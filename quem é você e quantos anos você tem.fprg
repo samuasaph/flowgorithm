@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Samuel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-02 06:23:41 "/>
+        <attribute name="created" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTAyOyIwNjowNTo1MiAiOzI3ODI="/>
+        <attribute name="edited" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTAyOyIwNjoyMzo0MSAiOzE7Mjg4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;ol&#225; quem &#233; voc&#234;&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="nome &amp; &quot;, quantos anos voc&#234; tem&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;ol&#225; &quot; &amp; nome &amp; &quot; voc&#234; tem &quot; &amp; idade &amp; &quot; anos&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

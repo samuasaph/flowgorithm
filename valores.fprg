@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Samuel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-02 06:48:05 "/>
+        <attribute name="created" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTAyOyIwNjo0MToxNyAiOzI3ODM="/>
+        <attribute name="edited" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTAyOyIwNjo0ODowNSAiOzE7Mjg5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Integer" array="False" size=""/>
+            <declare name="valor2" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite um n&#250;mero.&quot;" newline="True"/>
+            <input variable="valor"/>
+            <output expression="&quot;digite outro n&#250;mero.&quot;" newline="True"/>
+            <input variable="valor2"/>
+            <output expression="&quot;o primeiro valor &#233; &quot; &amp; valor &amp; &quot; o segundo valor &#233; &quot; &amp; valor2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
