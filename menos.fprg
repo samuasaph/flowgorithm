@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Samuel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-03 09:38:18 "/>
+        <attribute name="created" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTAzOyIwOTozNDoxNyAiOzI3ODk="/>
+        <attribute name="edited" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTAzOyIwOTozODoxOCAiOzE7MjkwMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="menos, valor, valor2" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite um valor&quot;" newline="True"/>
+            <input variable="valor"/>
+            <output expression="&quot;digite outro valor&quot;" newline="True"/>
+            <input variable="valor2"/>
+            <assign variable="menos" expression="valor - valor2"/>
+            <output expression="valor &amp; &quot; - &quot; &amp; valor2 &amp; &quot; = &quot; &amp; menos" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

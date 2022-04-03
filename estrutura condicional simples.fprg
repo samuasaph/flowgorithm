@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Samuel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-03 10:03:02 "/>
+        <attribute name="created" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTAzOyIwOTo0OToxMiAiOzI3OTA="/>
+        <attribute name="edited" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTAzOyIxMDowMzowMiAiOzE1OzI5MzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="chuva" type="Boolean" array="False" size=""/>
+            <output expression="&quot;esta chovendo, responda true , para verdadeiro, responda false para falso&quot;" newline="True"/>
+            <input variable="chuva"/>
+            <if expression="chuva">
+                <then>
+                    <output expression="&quot;vou ficar em casa&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

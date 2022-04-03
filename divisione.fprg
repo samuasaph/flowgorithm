@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Samuel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-03 09:47:49 "/>
+        <attribute name="created" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTAzOyIwOTozODoyMiAiOzI3ODk="/>
+        <attribute name="edited" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTAzOyIwOTo0Nzo0OSAiOzI7MjkwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="divis&#227;o, valor, valor2" type="Real" array="False" size=""/>
+            <output expression="&quot;digite um valor&quot;" newline="True"/>
+            <input variable="valor"/>
+            <output expression="&quot;digite outro valor&quot;" newline="True"/>
+            <input variable="valor2"/>
+            <assign variable="divis&#227;o" expression="valor / valor2"/>
+            <output expression="valor &amp; &quot; / &quot; &amp; valor2 &amp; &quot; = &quot; &amp; divis&#227;o" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Samuel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-03 10:17:21 "/>
+        <attribute name="created" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTAzOyIxMDowNDozNCAiOzI3Nzc="/>
+        <attribute name="edited" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTAzOyIxMDoxNzoyMSAiOzE7Mjg4NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="genero" type="Boolean" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;qual o seu nome&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;qual &#233; o seu genero true para homem, e false para mulher&quot;" newline="True"/>
+            <input variable="genero"/>
+            <if expression="genero">
+                <then>
+                    <output expression="&quot;ol&#225; senhor&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ol&#225; senhora&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
