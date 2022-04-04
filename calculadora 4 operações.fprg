@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Samuel"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-04 03:17:57 "/>
+        <attribute name="created" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTA0OyIwMjo0NDo1NyAiOzI3ODg="/>
+        <attribute name="edited" value="U2FtdWVsO0RFU0tUT1AtMDIwRUk2OTsyMDIyLTA0LTA0OyIwMzoxNzo1NyAiOzE7Mjg5Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor1" type="Real" array="False" size=""/>
+            <declare name="operacao" type="String" array="False" size=""/>
+            <declare name="valor2" type="Real" array="False" size=""/>
+            <declare name="resultado" type="Real" array="False" size=""/>
+            <output expression="&quot;digite um valor&quot;" newline="True"/>
+            <input variable="valor1"/>
+            <output expression="&quot;digite a opera&#231;&#227;o desejada + , - , * , / &quot;" newline="True"/>
+            <input variable="operacao"/>
+            <output expression="&quot;digite outro valor&quot;" newline="True"/>
+            <input variable="valor2"/>
+            <if expression="operacao = &quot;+&quot;">
+                <then>
+                    <assign variable="resultado" expression="valor1 + valor2"/>
+                    <output expression="resultado" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="operacao = &quot;-&quot;">
+                <then>
+                    <assign variable="resultado" expression="valor1 - valor2"/>
+                    <output expression="resultado" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="operacao = &quot;*&quot;">
+                <then>
+                    <assign variable="resultado" expression="valor1 * valor2"/>
+                    <output expression="resultado" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="operacao = &quot;/&quot;">
+                <then>
+                    <assign variable="resultado" expression="valor1 / valor2"/>
+                    <output expression="resultado" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
