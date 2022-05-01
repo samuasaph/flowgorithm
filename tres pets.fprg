@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="endroni"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-01 10:46:01 "/>
+        <attribute name="created" value="ZW5kcm9uaTtERVNLVE9QLUxHRjQ0RUE7MjAyMi0wNS0wMTsiMTA6MzY6NDEgIjsyOTcx"/>
+        <attribute name="edited" value="ZW5kcm9uaTtERVNLVE9QLUxHRjQ0RUE7MjAyMi0wNS0wMTsiMTA6NDY6MDEgIjsxOzMwNzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, pet1, pet2, pet3" type="String" array="False" size=""/>
+            <output expression="&quot;digite o seu nome&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;digite o nome do seus 3 pets, primeiro pet&quot;" newline="True"/>
+            <input variable="pet1"/>
+            <output expression="&quot;segundo pet&quot;" newline="True"/>
+            <input variable="pet2"/>
+            <output expression="&quot;terceiro pet&quot;" newline="True"/>
+            <input variable="pet3"/>
+            <output expression="nome &amp; &quot; tem um pet chamado &quot; &amp;pet1&amp; &quot;, &quot; &amp;pet2&amp; &quot;, &quot; &amp;pet3" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
